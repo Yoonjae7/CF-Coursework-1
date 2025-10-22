@@ -1,7 +1,0 @@
-CHIP MyNot {
-    IN in; //single output for not gate
-    OUT out;
-    PARTS:
-    Nand(a=in, b=in, out=out);
-
-}
